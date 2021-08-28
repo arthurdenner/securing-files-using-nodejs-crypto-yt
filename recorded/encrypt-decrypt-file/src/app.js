@@ -1,6 +1,4 @@
-const { promises } = require('fs')
-
-async function run() {
+async function run(promises) {
     const fileTarget = 'super-secure-file.txt.enc'
     console.log('writing file to:', fileTarget)
 
